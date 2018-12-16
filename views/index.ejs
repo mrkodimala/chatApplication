@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="material.css">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <h4 style="margin-bottom:30px">Chat Application</h4>
+            <div class="row" id="username-input">
+                <form id="username-form">
+                    <input class="input-field col m4" type="text" id="username-txt" placeholder="enter your name"/>
+                    <button class="btn waves-effect waves-light col m2" type="submit" >Login</button>
+                </form>
+            </div>
+            <div class="row" id="username-display">
+                <h5 id="username"></h5>
+            </div>
+            <div class="row">
+                <div class="col m6">
+                    <div class="row">
+                        <div class="col m12 message-box" id="message-box">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col m12">
+                            <form id="message-form">
+                                <input class="input-field col m10" type="text" id="message-txt" placeholder="enter your message"/>
+                                <button class="btn waves-effect waves-light col m2" type="submit" >Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="jquery.min.js"></script>
+        <script src="materialize.min.js"></script>
+        <script src="script.js"></script>
+        <script src="socket.js"></script>
+    </body>
+</html>

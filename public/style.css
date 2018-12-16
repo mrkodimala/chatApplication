@@ -1,0 +1,27 @@
+.message-style-left {
+    background: #c2d3ef;
+    margin: 2px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.message-style-right{
+    background: #efc2c2;
+    margin: 2px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.message-box {
+    height:500px;
+    width: 400px;
+    border: 1px black solid;
+    overflow: auto;
+    padding: 20px !important;
+}
